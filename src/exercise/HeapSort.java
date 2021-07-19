@@ -12,8 +12,9 @@ public class HeapSort implements Sort {
 		System.out.println("HeapSort descending");
 	}
 
-	public void showInfo() {
+	@Override
+	public void description() {              				//재정의
+		Sort.super.description();
 		System.out.println("HeapSort 입니다.");
 	}
-
 }

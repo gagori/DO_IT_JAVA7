@@ -13,7 +13,9 @@ public class QuickSort implements Sort {
 		System.out.println("QuickSort descending");
 	}
 
-	public void showInfo() {
+	@Override
+	public void description() {              				//재정의
+		Sort.super.description();
 		System.out.println("QuickSort 입니다.");
 	}
 }

@@ -12,8 +12,13 @@ public class BubbleSort implements Sort {
 		System.out.println("BubbleSort descending");
 	}
 
-	public void showInfo() {
+	@Override
+	public void description() {              				//재정의
+		Sort.super.description();
 		System.out.println("BubbleSort 입니다.");
 	}
+
+	
+	
 
 }
