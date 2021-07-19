@@ -17,6 +17,7 @@ public class CalculatorTest {
 		System.out.println(calculator.square(num));
 		
 		calculator.showInfo();
+		calculator.descripton();                  //디폴트 메서드 호출. + 구현한 클래스에서 오버라이드 가능.
 		
 	}
 

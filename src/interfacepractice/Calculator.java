@@ -12,6 +12,11 @@ public abstract class Calculator implements Calc {           //인터페이스�
 		return num1 - num2;
 	}
 
+	@Override
+	public void descripton() {
+		System.out.println("더욱 정확한 계산기를 구현합니다.");
+	}
+
 	
 
 }
